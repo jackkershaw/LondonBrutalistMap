@@ -1,8 +1,7 @@
 ## Other
 
-- When click another marker, it should close the other one (use either useContext/create context for this or useState, or Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))).
-- Edit readme so other people can use/edit. Write contributing.md maybe.
-- More info links for the buildings - there are some really good websites out there about these buildings which I'd like to signpost to users of the map.
+- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))).
+- More info links for the buildings - use the MoreInfoURL link option
 
 ## SEO
 
