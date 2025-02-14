@@ -49,16 +49,17 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         >
           Get Directions
         </a>
-        {feature.properties?.InfoURL && (
-          <a
-            href={feature.properties?.InfoURL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="feature-card__link"
-          >
-            More Info
-          </a>
-        )}
+        <a
+          href={
+            feature.properties?.InfoURL ||
+            `https://www.google.com/search?q=${encodeURIComponent(feature.properties?.Title)}`
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+          className="feature-card__link"
+        >
+          More Info
+        </a>
       </div>
       <div
         className="feature-card__button top-2 right-2 flex flex-col items-center justify-start space-y-1"
