@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.5",
     "mapbox-gl": "^3.10.0",
@@ -21,7 +22,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-map-gl": "^7.1.7",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^6.24.0",
+    "redux": "^5.0.1",
     "sass": "^1.77.8",
     "tailwindcss": "^3.4.4"
   },

@@ -7,6 +7,7 @@ Map of London's brutalist buildings built in React, TypeScript, and Tailwind. Us
 - NextJS, React and TypeScript
 - Tailwind CSS and SASS
 - React Router
+- Redux and Redux Toolkit
 - React-map-gl and MapLibre GL
 
 ## Project Structure

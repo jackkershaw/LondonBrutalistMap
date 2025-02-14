@@ -1,6 +1,7 @@
 ## Priority
 
-- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)))
+- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))) and [Redux Tutorial](https://daveceddia.com/redux-tutorial/) and type notes in
+- Hover doesn't show up if something open already, maybe display in another location.
 
 ## Improve Styling
 
