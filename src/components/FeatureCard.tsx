@@ -34,24 +34,31 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       />
 
       <div className="feature-card__content">
-        <h2 className="feature-card__title">
-          {feature.properties?.Title}
-        </h2>
+        <h2 className="feature-card__title">{feature.properties?.Title}</h2>
         <div className="feature-card__info">
           <span>Designed by:</span> {feature.properties?.Designer}
         </div>
-
         <div className="feature-card__info">
           <span>Completed in:</span> {feature.properties?.Completed}
         </div>
         <a
-          href={feature.properties?.URL}
+          href={feature.properties?.MapURL}
           target="_blank"
           rel="noopener noreferrer"
           className="feature-card__link"
         >
           Get Directions
         </a>
+        {feature.properties?.InfoURL && (
+          <a
+            href={feature.properties?.InfoURL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="feature-card__link"
+          >
+            More Info
+          </a>
+        )}
       </div>
       <div
         className="feature-card__button top-2 right-2 flex flex-col items-center justify-start space-y-1"
@@ -62,10 +69,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       </div>
 
       {onClose && (
-        <div
-          className="feature-card__button top-2 left-2"
-          onClick={onClose}
-        >
+        <div className="feature-card__button top-2 left-2" onClick={onClose}>
           <CloseButton />
           <p className="text-center">Back</p>
         </div>
