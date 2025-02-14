@@ -61,7 +61,7 @@ The project follows a typical React application structure, held together with Re
 
 ## Contributing
 
-We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions.
+We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. Please follow the [CODE_OF_CONDUCT](/CODE_OF_CONDUCT.md) You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions.
 
 ## Resources:
 
