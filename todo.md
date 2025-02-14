@@ -8,6 +8,7 @@
 - apply default colours consistently.
   -Consistent colors, search with % for white gray black neutral etc and replace
 - Use sass, see articles on why better than tailwind / other approach basically, use to demonstrate that can use sass/styled components and other forms of css
+- dark and light mode
 
 ## Buildings page
 
