@@ -63,6 +63,10 @@ The project follows a typical React application structure, held together with Re
 
 We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. Please follow the [CODE_OF_CONDUCT](/CODE_OF_CONDUCT.md) You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions.
 
+## Roadmap/Suggested Improvements
+
+It would be good to have more info URL links in the GEOJSON data (/src/components/geoJSONData.tsx). At the moment if a building does not have a More info url associated with it, clicking the more info button will trigger a google search for the building.
+
 ## Resources:
 
 ### Brutalism:
