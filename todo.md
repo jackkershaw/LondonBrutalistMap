@@ -3,12 +3,6 @@
 - When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))).
 - More info links for the buildings - use the MoreInfoURL link option
 
-## SEO
-
-- Use Google Search Console
-- Edit SEO
-- outbound links?
-
 ## Buildings page
 
 - order by name/architect/date built.
