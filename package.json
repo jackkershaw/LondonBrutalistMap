@@ -15,7 +15,7 @@
     "axios": "^1.7.5",
     "mapbox-gl": "^3.10.0",
     "maplibre-gl": "^4.7.1",
-    "netlify-cli": "^17.38.1",
+    "netlify-cli": "^18.1.0",
     "next": "^15.1.7",
     "postcss": "^8.4.41",
     "postcss-nested": "^6.2.0",
