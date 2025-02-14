@@ -1,6 +1,6 @@
 ## Priority
 
-- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))).
+- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)))
 
 ## Improve Styling
 
