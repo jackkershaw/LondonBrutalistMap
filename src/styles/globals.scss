@@ -1,9 +1,9 @@
 @use "tailwindcss/base" as *;
 @use "tailwindcss/components" as *;
 @use "tailwindcss/utilities" as *;
-@use "./button";
-@use "./typography";
-@use "./colors";
+@use "./button" as *;
+@use "./typography" as *;
+@use "./colors" as *;
 
 .whitebg {
   background-color: $white;

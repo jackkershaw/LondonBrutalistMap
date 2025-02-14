@@ -1,4 +1,4 @@
-@import "../styles/_colors.scss";
+@use "../styles/_colors.scss" as *;
 
 .hover-info {
   @apply p-5 text-2xl rounded-lg shadow-lg shadow-black z-10 w-[400px];

@@ -1,4 +1,4 @@
-@import "../styles/_colors.scss";
+@use "../styles/_colors.scss" as *;
 
 @mixin card-layout {
   @apply relative flex flex-col items-center justify-center sm:rounded-lg overflow-hidden h-[70vh] sm:h-[65vh];
