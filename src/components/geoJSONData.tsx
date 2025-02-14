@@ -1820,7 +1820,8 @@ export const FeaturesData: FeaturesData = {
         geometry: "Point",
         Title: "Hendon Hall Court",
         MapURL: "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
-        InfoURL: "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
+        InfoURL:
+          "https://www.modernism-in-metroland.co.uk/hendon-hall-court.html",
         Image: "98",
         Designer: "Owen Luder",
         Completed: "1964",
