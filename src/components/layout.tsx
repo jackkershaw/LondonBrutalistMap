@@ -8,13 +8,11 @@ export default function Layout({
 }) {
   return (
     <>
-      <body>
-        <div className="sm:mx-10">
-          <Header />
-          <div className="py-28 sm:py-0">{children}</div>
-          <Footer />
-        </div>
-      </body>
+      <div className="sm:mx-10">
+        <Header />
+        <div className="py-28 sm:py-0">{children}</div>
+        <Footer />
+      </div>
     </>
   );
 }
