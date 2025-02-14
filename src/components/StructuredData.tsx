@@ -1,11 +1,15 @@
-export default function StructuredData({ feature }) {
+export default function StructuredData({
+  feature,
+}: {
+  feature: GeoJSON.Feature;
+}) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LandmarksOrHistoricalBuildings",
-    name: feature.properties.Title,
-    description: `Brutalist building in London designed by ${feature.properties.Designer}`,
-    architect: feature.properties.Designer,
-    yearBuilt: feature.properties.Completed,
+    name: feature.properties?.Title,
+    description: `Brutalist building in London designed by ${feature.properties?.Designer}`,
+    architect: feature.properties?.Designer,
+    yearBuilt: feature.properties?.Completed,
   };
 
   return (
