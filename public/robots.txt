@@ -1,4 +1,4 @@
 User-agent: *
-
+Allow: /
 # Sitemap
-Sitemap: https://www.londonbrutalistmap.co.uk/sitemap.txt
+Sitemap: https://www.londonbrutalistmap.co.uk/sitemap.xml
