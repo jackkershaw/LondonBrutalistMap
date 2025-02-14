@@ -31,10 +31,13 @@
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^13.0.0",
+    "prettier": "^3.5.1",
     "scss": "^0.2.4",
     "typescript": "^5.2.2",
     "vite": "^5.4.14"
