@@ -41,25 +41,27 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         <div className="feature-card__info">
           <span>Completed in:</span> {feature.properties?.Completed}
         </div>
-        <a
-          href={feature.properties?.MapURL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="feature-card__link"
-        >
-          Get Directions
-        </a>
-        <a
-          href={
-            feature.properties?.InfoURL ||
-            `https://www.google.com/search?q=${encodeURIComponent(feature.properties?.Title)}`
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className="feature-card__link"
-        >
-          More Info
-        </a>
+        <div className="flex justify-between">
+          <a
+            href={feature.properties?.MapURL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="feature-card__link"
+          >
+            Get Directions
+          </a>
+          <a
+            href={
+              feature.properties?.InfoURL ||
+              `https://www.google.com/search?q=${encodeURIComponent(feature.properties?.Title)}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className="feature-card__link"
+          >
+            More Info
+          </a>
+        </div>
       </div>
       <div
         className="feature-card__button top-2 right-2 flex flex-col items-center justify-start space-y-1"

@@ -6,7 +6,7 @@
 }
 
 @mixin image {
-  @apply filter grayscale w-full h-[50vh] object-cover object-center;
+  @apply filter grayscale w-full h-[45vh] object-cover object-center;
 }
 
 .feature-card {
