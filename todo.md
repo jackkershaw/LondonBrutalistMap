@@ -40,8 +40,6 @@ Add inline comments to complex code sections: This will help new editors underst
 
 Set up a CI/CD pipeline: This will automatically run tests and checks on pull requests, making it easier for new editors to ensure their contributions meet the project's standards.
 
-Implement a consistent code formatting tool: Use tools like Prettier or ESLint to maintain a consistent code style throughout the project.
-
 Provide a detailed project roadmap: This will give new editors an idea of the project's direction and where they can contribute most effectively.
 
 Set up a development branch: This will allow contributors to work on features without affecting the main branch directly.
