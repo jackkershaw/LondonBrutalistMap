@@ -61,7 +61,7 @@ The project follows a typical React application structure, held together with Re
 
 ## Contributing
 
-We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute.
+We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions.
 
 ## Resources:
 
@@ -83,7 +83,7 @@ We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONT
 - [Community Maps](https://www.are.na/gemma-copeland/community-maps)
 - [Pinball Map](https://pinballmap.com/)
 
-# How I built this site (Last updated August 2024, before this project was updated for open-source)
+# How I built this site initially (August 2024)
 
 ## Why
 
