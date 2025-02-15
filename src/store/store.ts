@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import reducer from "./buildingSlice";
+import buildingReducer from "./buildingSlice";
 
 export const store = configureStore({
-  reducer,
+  reducer: {
+    buildings: buildingReducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
