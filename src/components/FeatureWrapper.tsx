@@ -7,9 +7,7 @@ interface FeatureWrapperProps {
   feature: GeoJSON.Feature;
 }
 
-const FeatureWrapper: React.FC<FeatureWrapperProps> = ({
-  feature,
-}) => {
+const FeatureWrapper: React.FC<FeatureWrapperProps> = ({ feature }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
   const [isVisited, setIsVisited] = useState(false);
@@ -43,10 +41,7 @@ const FeatureWrapper: React.FC<FeatureWrapperProps> = ({
               localStorage.removeItem(feature.properties?.Title);
               setIsVisited(false);
             } else {
-              localStorage.setItem(
-                feature.properties?.Title,
-                "visited"
-              );
+              localStorage.setItem(feature.properties?.Title, "visited");
               setIsVisited(true);
             }
           }}
