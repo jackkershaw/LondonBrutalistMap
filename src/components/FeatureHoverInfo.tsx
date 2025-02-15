@@ -20,6 +20,7 @@ const HoverInfo: React.FC<HoverInfoProps> = ({
       <span className="hover-info__icon">🔍</span>
       {title}
     </span>
+    <p className="pt-3 px-8 text-sm">Click for more info</p>
   </div>
 );
 
