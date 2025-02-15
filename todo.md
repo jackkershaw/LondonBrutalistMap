@@ -1,6 +1,6 @@
 ## Improve Styling
 
-- use either tailwind or sass not both (probably tailwind).
+- use just tailwind (change in readme and on portfolio page and cv when done)
 - fix for mobile - iphone se not looking great.
 - apply default colours consistently.
   -Consistent colors, search with % for white gray black neutral etc and replace
