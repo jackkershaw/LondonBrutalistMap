@@ -2,25 +2,42 @@ import React, { useState } from "react";
 import CustomMarker from "./Marker";
 import HoverInfo from "./FeatureHoverInfo";
 import InfoPanel from "./FeatureFullInfo.tsx";
+import { useAppDispatch, useAppSelector } from "../store/hooks";
+import {
+  setSelectedBuilding,
+  clearSelectedBuilding,
+} from "../store/buildingSlice";
 
 interface FeatureWrapperProps {
   feature: GeoJSON.Feature;
 }
 
 const FeatureWrapper: React.FC<FeatureWrapperProps> = ({ feature }) => {
+  const dispatch = useAppDispatch();
   const [isHovered, setIsHovered] = useState(false);
-  const [isClicked, setIsClicked] = useState(false);
   const [isVisited, setIsVisited] = useState(false);
+
+  const selectedBuildingId = useAppSelector(
+    (state) => state.buildings.selectedBuildingId
+  );
+  const isSelected = selectedBuildingId === feature.id;
 
   return (
     <div>
       <CustomMarker
         feature={feature}
-        onMouseEnter={() => setIsHovered(true)}
+        onMouseEnter={() => {
+          setIsHovered(true);
+          dispatch(clearSelectedBuilding());
+        }}
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => {
-          setIsClicked(true);
           setIsHovered(false);
+          if (isSelected) {
+            dispatch(clearSelectedBuilding());
+          } else {
+            dispatch(setSelectedBuilding(feature.id));
+          }
         }}
       />
 
@@ -32,7 +49,7 @@ const FeatureWrapper: React.FC<FeatureWrapperProps> = ({ feature }) => {
         />
       )}
 
-      {isClicked && (
+      {isSelected && !isHovered && (
         <InfoPanel
           feature={feature}
           isVisited={isVisited}
@@ -45,10 +62,11 @@ const FeatureWrapper: React.FC<FeatureWrapperProps> = ({ feature }) => {
               setIsVisited(true);
             }
           }}
-          onClose={() => setIsClicked(false)}
+          onClose={() => dispatch(clearSelectedBuilding())}
         />
       )}
     </div>
   );
 };
+
 export default FeatureWrapper;
