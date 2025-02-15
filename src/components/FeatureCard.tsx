@@ -46,7 +46,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             href={feature.properties?.MapURL}
             target="_blank"
             rel="noopener noreferrer"
-            className="feature-card__link"
+            className="feature-card__link py-2 px-4"
           >
             Get Directions
           </a>
@@ -57,7 +57,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="feature-card__link"
+            className="feature-card__link py-2 px-4"
           >
             More Info
           </a>
