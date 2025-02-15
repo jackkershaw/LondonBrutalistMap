@@ -1,3 +1,7 @@
+## Priority
+
+Redux - do this tutorial using sandbox to make sure understand it well. Tutorial [here](https://daveceddia.com/redux-tutorial/)
+
 ## Improve Styling
 
 - use just tailwind (change in readme and on portfolio page and cv when done)
