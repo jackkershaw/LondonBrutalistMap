@@ -1,6 +1,6 @@
 ## Priority
 
-- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))) and [Redux Tutorial](https://daveceddia.com/redux-tutorial/) and type notes in
+- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))) and [Redux Tutorial](https://daveceddia.com/redux-tutorial/) and type notes in knowledge wiki.
 - Hover doesn't show up if something open already, maybe display in another location.
 
 ## Improve Styling
@@ -24,3 +24,7 @@
 ## Game page
 
 - I wanted to build a game using the same data, to test user's on their knowledge of the buildings. E.g. Photo, what building is this, user inputs their answer.
+
+## Sharing
+
+- share in some of [these places](https://github.com/KingMenes/awesome-launch)
