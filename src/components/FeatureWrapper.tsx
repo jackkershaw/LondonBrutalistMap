@@ -36,7 +36,7 @@ const FeatureWrapper: React.FC<FeatureWrapperProps> = ({ feature }) => {
           if (isSelected) {
             dispatch(clearSelectedBuilding());
           } else {
-            dispatch(setSelectedBuilding(feature.id));
+            dispatch(setSelectedBuilding(String(feature.id)));
           }
         }}
       />
