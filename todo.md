@@ -1,10 +1,6 @@
-## Priority
-
-- When click another marker, it should close the other one (use Redux([guide here](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867))) and [Redux Tutorial](https://daveceddia.com/redux-tutorial/) and type notes in knowledge wiki.
-- Hover doesn't show up if something open already, maybe display in another location.
-
 ## Improve Styling
 
+- use either tailwind or sass not both (probably tailwind).
 - fix for mobile - iphone se not looking great.
 - apply default colours consistently.
   -Consistent colors, search with % for white gray black neutral etc and replace
