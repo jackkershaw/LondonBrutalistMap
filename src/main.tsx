@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/globals.scss";
+import "./styles/globals.css";
 import "./styles/_colors.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Map from "./pages/map.tsx";

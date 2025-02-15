@@ -9,10 +9,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        isOpen &&
-        !headerRef.current?.contains(event.target as Node)
-      ) {
+      if (isOpen && !headerRef.current?.contains(event.target as Node)) {
         setIsOpen(false);
       }
     };
@@ -45,7 +42,7 @@ function Header() {
     >
       <div className="flex justify-center sm:justify-between items-center space-x-5 py-10">
         <Link to="/">
-          <h1 className="text-3xl">London Brutalist Map</h1>
+          <h1 className="text-3xl font-bold">London Brutalist Map</h1>
         </Link>
         <nav className="hidden sm:block">
           <ul className="flex space-x-4 text-xl">
@@ -55,10 +52,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link
-                to="/building-index"
-                className="px-3 py-2 rounded-md"
-              >
+              <Link to="/building-index" className="px-3 py-2 rounded-md">
                 Buildings
               </Link>
             </li>
@@ -84,11 +78,7 @@ function Header() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              d={
-                isOpen
-                  ? "M6 18L18 6M6 6l12 12"
-                  : "M4 6h16M4 12h16M4 18h16"
-              }
+              d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
             />
           </svg>
         </button>
@@ -100,10 +90,7 @@ function Header() {
             <Link to="/" className="block   px-3 py-2 rounded-md">
               Map
             </Link>
-            <Link
-              to="/building-index"
-              className="block   px-3 py-2 rounded-md"
-            >
+            <Link to="/building-index" className="block   px-3 py-2 rounded-md">
               Buildings
             </Link>{" "}
             <Link to="/about" className="block   px-3 py-2 rounded-md">
