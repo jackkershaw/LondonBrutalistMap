@@ -8,7 +8,7 @@ export function Footer() {
     >
       <VisitedCount></VisitedCount>
       <a
-        href="https://github.com/jackkershaw/brutalist-map-2"
+        href="https://github.com/jackkershaw/LondonBrutalistMap"
         target="_blank"
         className="font-bold hover:underline"
       >
