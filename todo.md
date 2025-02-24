@@ -9,7 +9,7 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 
 ## Improve Styling
 
-- use just tailwind (change in readme and on portfolio page and cv when done)
+- use just tailwind (change in portfolio and cv)
 - fix for mobile - iphone se not looking great.
 - apply default colours consistently.
   -Consistent colors, search with % for white gray black neutral etc and replace

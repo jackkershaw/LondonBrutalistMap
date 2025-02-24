@@ -5,7 +5,7 @@ Map of London's brutalist buildings built in React, TypeScript, and Tailwind. Us
 ## Technologies Used
 
 - NextJS, React and TypeScript
-- Tailwind CSS and SASS
+- Tailwind CSS
 - React Router
 - Redux and Redux Toolkit
 - React-map-gl and MapLibre GL
@@ -119,3 +119,4 @@ I'd love to see contributions to this project! Please refer to [CONTRIBUTING](/C
 - Extracted common tailwind styles to scss, to make them easier to edit.
 - Moved from Mapbox maplibre-gl, using the guides on [OpenFreeMap](https://openfreemap.org/) and their tiling. This should enable people to contribute to this repository more easily (i previously used a mapbox api key tied to the local and production servers).
   - I used Maputnik to generate styles and [Map Libre Font Maker](https://github.com/maplibre/font-maker) to generate the font tiles I needed.
+- Removed SASS in favour of pure Tailwind CSS.
