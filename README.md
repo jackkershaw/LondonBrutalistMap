@@ -59,11 +59,7 @@ The project follows a typical React application structure, held together with Re
 
 ## Contributing
 
-We welcome all contributions, big or small! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. Please follow the [CODE_OF_CONDUCT](/CODE_OF_CONDUCT.md) You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions.
-
-## Roadmap/Suggested Improvements
-
-It would be good to have more info URL links in the GEOJSON data (/src/components/geoJSONData.tsx). At the moment if a building does not have a More info url associated with it, clicking the more info button will trigger a google search for the building.
+I'd love to see contributions to this project! Please refer to [CONTRIBUTING](/CONTRIBUTING.md) for instructions on how to contribute. Please follow the [CODE_OF_CONDUCT](/CODE_OF_CONDUCT.md) too. You can also email me on [hello@jackkershaw.net](mailto:hello@jackkershaw.net) with any questions or suggestions.
 
 ## Resources:
 
@@ -71,7 +67,7 @@ It would be good to have more info URL links in the GEOJSON data (/src/component
 
 - [Socialist Modernism](https://socialistmodernism.com/)
 - [SOS Brutalism Map](https://www.sosbrutalism.org/cms/15802395#map)
-- [Brutalist London Paper Map] (https://bluecrowmedia.com/products/brutalist-london-map)
+- [Brutalist London Paper Map](https://bluecrowmedia.com/products/brutalist-london-map)
 - https://www.youtube.com/watch?v=UWhuHiL8Pug
 - https://www.youtube.com/watch?v=TvKi_hsJf3c
 - https://www.bloomberg.com/news/articles/2015-11-25/the-case-for-calling-brutalism-heroic-instead
