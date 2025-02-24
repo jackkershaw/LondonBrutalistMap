@@ -53,6 +53,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-gray/50 px-4 py-2 text-sm font-bold hover:bg-gray/100"
+            aria-label={`Get directions to ${feature.properties?.Title}`}
           >
             Get Directions
           </a>
@@ -64,6 +65,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-gray/50 px-4 py-2 text-sm font-bold hover:bg-gray/100"
+            aria-label={`Learn more about ${feature.properties?.Title}`}
           >
             More Info
           </a>

@@ -28,10 +28,11 @@ export default function AboutPage() {
               This website was created by Jack Kershaw and the code can be
               viewed{" "}
               <a
-                href="https://github.com/jackkershaw/brutalist-buildings-guesser"
+                href="https://github.com/jackkershaw/londonbrutalistmap"
                 className="underline"
                 target="_blank"
                 rel="noreferrer"
+                aria-title="link to the github repo for london brutalist map"
               >
                 here
               </a>
