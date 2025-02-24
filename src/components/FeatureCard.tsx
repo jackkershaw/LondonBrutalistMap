@@ -33,7 +33,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       />
 
       <div className="mb-2 w-full rounded-bl-lg rounded-br-lg bg-white px-2 py-4">
-        <h2 className="text-xl font-bold">{feature.properties?.Title}</h2>
+        <h2 className="px-4 text-xl font-bold">{feature.properties?.Title}</h2>
         <div className="flex flex-col space-y-3 py-4 text-base">
           <div className="grid grid-cols-2 gap-2 px-4">
             <span className="text-gray-800 font-bold">Designed by:</span>
