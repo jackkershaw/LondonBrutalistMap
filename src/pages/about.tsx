@@ -32,7 +32,7 @@ export default function AboutPage() {
                 className="underline"
                 target="_blank"
                 rel="noreferrer"
-                aria-title="link to the github repo for london brutalist map"
+                aria-label="link to the github repo for london brutalist map"
               >
                 here
               </a>
