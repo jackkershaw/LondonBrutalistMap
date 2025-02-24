@@ -14,22 +14,26 @@ Map of London's brutalist buildings built in React, TypeScript, and Tailwind. Us
 
 The project follows a typical React application structure, held together with React Router:
 
-- `.gitignore`: Specifies intentionally untracked files to ignore
-- `CODE_OF_CONDUCT.md`: Guidelines for community behavior
+- `.gitignore`: Untracked files
+- `CODE_OF_CONDUCT.md`: Guidelines for community members
 - `CONTRIBUTING.md`: Instructions for contributing to the project
-- `LICENSE`: Project license information
+- `LICENSE`: License for the project
 - `README.md`: Project documentation (this file)
-- `index.html`: Entry point of the application
+- `index.html`: Entry point of the application in html
 - `netlify.toml`: Netlify deployment configuration
-- `package.json` & `package-lock.json`: Node.js dependencies and lock file
+- `prettier.rrc`: Prettier configuration
+- `package.json` & `package-lock.json`: Node.js dependencies
 - `postcss.config.js`: PostCSS configuration
+- `favicons/`: Favicon files
 - `public/`: Static assets
-  - `data/`: Contains GeoJSON data for the buildings
-  - `favicons/`: Favicon files
+
+  - `data/`: Contains GeoJSON data for the buildings, wrapped in a typescript file.
+
   - `fonts/`: Custom fonts
   - `images/`: Image assets, including building photos
   - `mapfonts/`: Font files for map rendering
   - `mapstyles.json`: Map styling
+
 - `src/`: Contains the main source code
   - `components/`: React components
   - `pages/`: Page-level components
