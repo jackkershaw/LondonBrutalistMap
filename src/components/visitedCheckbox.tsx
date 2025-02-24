@@ -23,7 +23,7 @@ const VisitedCheckbox = (props: SVGProps<SVGSVGElement>) => {
       <path
         d="M449.2 280.8c18.6 18.5 36.9 36.7 55 54.7-87.1 87.3-174.1 174.3-260.8 261.2l-159-159 58.6-58.6 103.8 103.8c67.5-67.2 134.9-134.5 202.4-202.1Z"
         style={{
-          fill: "#fff",
+          fill: "#faf3f3",
           fillRule: "nonzero",
         }}
         transform="translate(-8.183 -145.768) scale(1.05582)"
