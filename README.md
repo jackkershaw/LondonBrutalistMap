@@ -29,7 +29,7 @@ The project follows a typical React application structure, held together with Re
   - `fonts/`: Custom fonts
   - `images/`: Image assets, including building photos
   - `mapfonts/`: Font files for map rendering
-  - `mapstyles.json`: Map style configuration
+  - `mapstyles.json`: Map styling
 - `src/`: Contains the main source code
   - `components/`: React components
   - `pages/`: Page-level components
