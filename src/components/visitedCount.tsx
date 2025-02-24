@@ -19,7 +19,7 @@ const VisitedCount: React.FC = () => {
 
   return (
     <Link to="/building-index">
-      <h2>{`Visited: ${buildingsCount}/104`}</h2>
+      <h2>{`Visited: ${buildingsCount}/105`}</h2>
     </Link>
   );
 };
