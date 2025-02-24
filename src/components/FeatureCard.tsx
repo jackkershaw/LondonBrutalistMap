@@ -28,7 +28,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         height={400}
         sizes="100vw"
         className="h-[45vh] w-full object-cover object-center grayscale filter"
-        loading="lazy"
+        loading="eager"
         title={feature.properties?.Title}
       />
 
