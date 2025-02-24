@@ -7,7 +7,7 @@ export function Footer() {
       <a
         href="https://github.com/jackkershaw/LondonBrutalistMap"
         target="_blank"
-        className="font-bold hover:underline"
+        className="hover:underline"
       >
         View on Github
       </a>
