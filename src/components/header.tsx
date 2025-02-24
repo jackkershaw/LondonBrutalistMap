@@ -38,33 +38,33 @@ function Header() {
   return (
     <header
       ref={headerRef}
-      className="fixed top-0 left-0 right-0 z-50 bg-white sm:bg-transparent sm:relative"
+      className="fixed left-0 right-0 top-0 z-50 bg-white sm:relative sm:bg-transparent"
     >
-      <div className="flex justify-center sm:justify-between items-center space-x-5 py-10">
+      <div className="flex items-center justify-center space-x-5 py-10 sm:justify-between">
         <Link to="/">
           <h1 className="text-3xl font-bold">London Brutalist Map</h1>
         </Link>
         <nav className="hidden sm:block">
           <ul className="flex space-x-4 text-xl">
             <li>
-              <Link to="/" className=" px-3 py-2 rounded-md">
+              <Link to="/" className="rounded-md px-3 py-2">
                 Map
               </Link>
             </li>
             <li>
-              <Link to="/building-index" className="px-3 py-2 rounded-md">
+              <Link to="/building-index" className="rounded-md px-3 py-2">
                 Buildings
               </Link>
             </li>
             <li>
-              <Link to="/about" className="  px-3 py-2 rounded-md">
+              <Link to="/about" className="rounded-md px-3 py-2">
                 About
               </Link>
             </li>
           </ul>
         </nav>
         <button
-          className="sm:hidden  focus:outline-none"
+          className="focus:outline-none sm:hidden"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="menu button"
         >
@@ -86,14 +86,14 @@ function Header() {
 
       {isOpen && (
         <div className="sm:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link to="/" className="block   px-3 py-2 rounded-md">
+          <div className="space-y-1 px-2 pb-3 pt-2">
+            <Link to="/" className="block rounded-md px-3 py-2">
               Map
             </Link>
-            <Link to="/building-index" className="block   px-3 py-2 rounded-md">
+            <Link to="/building-index" className="block rounded-md px-3 py-2">
               Buildings
             </Link>{" "}
-            <Link to="/about" className="block   px-3 py-2 rounded-md">
+            <Link to="/about" className="block rounded-md px-3 py-2">
               About
             </Link>
           </div>
