@@ -2,14 +2,9 @@
 
 Redux - do this tutorial using sandbox to make sure understand it well. Tutorial [here](https://daveceddia.com/redux-tutorial/)
 
-## map
-
-- Improve loading speed of the map / use skeleton as it loads slow atm
-- pre load image on hover
-
 ## Improve Styling
 
-- use just tailwind (change in portfolio and cv)
+- use just tailwind (change in cv)
 - fix for mobile
 
   - iphone se and up
@@ -18,9 +13,6 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 - apply default colours consistently.
 
   - Consistent colors, search with % for white gray black neutral etc and replace
-
-- dark and light mode
-- improve css of map?
 
 ## Buildings page
 
