@@ -10,9 +10,15 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 ## Improve Styling
 
 - use just tailwind (change in portfolio and cv)
-- fix for mobile - iphone se not looking great.
+- fix for mobile
+
+  - iphone se and up
+  - Close header on click on mobile
+
 - apply default colours consistently.
-  -Consistent colors, search with % for white gray black neutral etc and replace
+
+  - Consistent colors, search with % for white gray black neutral etc and replace
+
 - dark and light mode
 - improve css of map?
 
