@@ -267,6 +267,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Dawson's Heights",
         MapURL:
           "https://www.google.com/maps/place/Dawson's+Hill/data=!4m2!3m1!1s0x487603c1eaef715d:0x4746d47c0a991bd0",
+        InfoURL: "https://hiddenarchitecture.net/dawsons-heights-state/",
         Image: "14",
         Designer: "Kate Macintosh",
         Completed: "1972",
@@ -703,8 +704,9 @@ export const FeaturesData: FeaturesData = {
       properties: {
         altitude: "",
         geometry: "Point",
-        Title: "269 Leigham Court Road",
+        Title: "Macintosh Court",
         MapURL: "https://maps.app.goo.gl/thxEZm5mJif3MDUr8",
+        InfoURL: "https://hiddenarchitecture.net/macintosh-cour/",
         Image: "38",
         Designer: "Kate Macintosh",
         Completed: "1972",
@@ -890,6 +892,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Keeling House",
         MapURL:
           "https://www.google.com/maps/place/Keeling+House/data=!4m2!3m1!1s0x48761cc37c0d03a9:0x3629abfce9a6e333",
+        InfoURL: "https://hiddenarchitecture.net/keeling-house/",
         Image: "48",
         Designer: "Denys Lasdun",
         Completed: "1957",
@@ -900,6 +903,26 @@ export const FeaturesData: FeaturesData = {
         type: "Point",
       },
       id: "7b2d6b081ddc7409fbbad2a21d58565f",
+    },
+    {
+      type: "Feature",
+      properties: {
+        altitude: "",
+        geometry: "Point",
+        Title: "Milford Towers",
+        MapURL:
+          "https://www.google.com/maps/place/Milford+Towers/@51.4470584,-0.0209436,17z/data=!4m15!1m8!3m7!1s0x48760215df621247:0xb5d67f9da8bb318a!2sMilford+Towers!8m2!3d51.4470584!4d-0.0209436!10e5!16s%2Fg%2F11cksfcpqk!3m5!1s0x48760215df621247:0xb5d67f9da8bb318a!8m2!3d51.4470584!4d-0.0209436!16s%2Fg%2F11cksfcpqk?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D",
+        InfoURL: "https://hiddenarchitecture.net/milford-towers/",
+        Image: "105",
+        Designer: "Owen Luder",
+        Completed: "1969",
+        "": "",
+      },
+      geometry: {
+        coordinates: [-0.0209436, 51.4470584],
+        type: "Point",
+      },
+      id: "fcaf95b86ef39f96dba82867d41c6851",
     },
     {
       type: "Feature",
@@ -1281,6 +1304,7 @@ export const FeaturesData: FeaturesData = {
         geometry: "Point",
         Title: "Golden Lane Estate",
         MapURL: "https://maps.app.goo.gl/kmeVKCcPy83XUb5v7",
+        InfoURL: "https://hiddenarchitecture.net/golden-lane-estate/",
         Image: "69",
         Designer: "Chamberlin, Powell and Bon",
         Completed: "1962",
@@ -1448,6 +1472,8 @@ export const FeaturesData: FeaturesData = {
         geometry: "Point",
         Title: "Dunboyne Road Estate",
         MapURL: "https://maps.app.goo.gl/xVos2c2MUFiyrQzH8",
+        InfoURL:
+          "https://hiddenarchitecture.net/right-to-afford-dunboyne-road-estate/",
         Image: "78",
         Designer: "Neave Brown",
         Completed: "1967",
