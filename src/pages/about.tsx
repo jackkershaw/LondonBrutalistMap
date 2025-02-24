@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <div>
       <div className="mx-5 grid grid-cols-1 gap-16 space-y-5 py-10 sm:mx-0 md:grid-cols-2 lg:grid-cols-3">
-        <div className="col-span-1">
+        <div className="col-span-2">
           <section>
             <h1 className="text-2xl">What is Brutalism?</h1>
             <p className="py-4 text-xl">
