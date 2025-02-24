@@ -1,4 +1,4 @@
-import { FeaturesData } from "../components/geoJSONData.tsx";
+import { FeaturesData } from "../data/geoJSONData.tsx";
 import { useState } from "react";
 import FeatureCard from "../components/FeatureCard.tsx";
 
@@ -25,8 +25,8 @@ export default function Index() {
   };
 
   return (
-    <section className="pb-10 mb-10 w-full">
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto">
+    <section className="mb-10 w-full pb-10">
+      <ul className="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {features.map((feature, index) => {
           const title = feature.properties.Title;
           return (
