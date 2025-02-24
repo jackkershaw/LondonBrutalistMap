@@ -10,6 +10,7 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
   -Consistent colors, search with % for white gray black neutral etc and replace
 - Use sass, see articles on why better than tailwind / other approach basically, use to demonstrate that can use sass/styled components and other forms of css
 - dark and light mode
+- improve css of map?
 
 ## Buildings page
 
@@ -23,8 +24,9 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 
 ## Game page
 
-- I wanted to build a game using the same data, to test user's on their knowledge of the buildings. E.g. Photo, what building is this, user inputs their answer.
+- build a game using the same data, to test user's on their knowledge of the buildings. E.g. Photo, what building is this, user inputs their answer.
 
 ## Sharing
 
 - share in some of [these places](https://github.com/KingMenes/awesome-launch)
+- share with hidden architecture
