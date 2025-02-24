@@ -42,9 +42,10 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^13.0.0",
-    "prettier": "^3.5.1",
-    "scss": "^0.2.4",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "sass": "^1.69.0",
+    "scss": "^0.2.4",
     "typescript": "^5.2.2",
     "vite": "^5.4.14"
   }
