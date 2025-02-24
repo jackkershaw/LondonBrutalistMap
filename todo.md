@@ -2,12 +2,10 @@
 
 Redux - do this tutorial using sandbox to make sure understand it well. Tutorial [here](https://daveceddia.com/redux-tutorial/)
 
-## Improve Styling
+## Fix Mobile Styling
 
-- fix mobile styling
-
-  - iphone se and up
-  - Close header on click on mobile
+- work from iphone se upwards, use Responsively.
+- Close header on click on mobile.
 
 ## Buildings page
 
@@ -18,10 +16,6 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 - filter to see ones you've visited / unvisited
 - back to top floating button
 - Instead of get directions, should say "View on map" and link back to map page, with that feature clicked. This will need a duplicate feature card component.
-
-## Game page
-
-- build a game using the same data, to test user's on their knowledge of the buildings. E.g. Photo, what building is this, user inputs their answer.
 
 ## Sharing
 
