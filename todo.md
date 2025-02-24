@@ -4,7 +4,7 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 
 ## Improve Styling
 
-- fix for mobile
+- fix mobile styling
 
   - iphone se and up
   - Close header on click on mobile
