@@ -4,15 +4,10 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 
 ## Improve Styling
 
-- use just tailwind (change in cv)
 - fix for mobile
 
   - iphone se and up
   - Close header on click on mobile
-
-- apply default colours consistently.
-
-  - Consistent colors, search with % for white gray black neutral etc and replace
 
 ## Buildings page
 
