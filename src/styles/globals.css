@@ -37,11 +37,18 @@ h1 {
 
 @font-face {
   font-family: "Real Text Pro Bold";
-  font-style: normal;
+  font-style: bold;
   font-weight: 800;
   src: url(/fonts/Real-Text-Pro/RealTextPro-Bold.otf);
 }
 
 .button {
   @apply rounded bg-black px-4 py-2 font-bold text-white;
+}
+
+.font-bold {
+  font-family:
+    Real Text Pro Bold,
+    sans-serif;
+  font-weight: 800;
 }
