@@ -5,6 +5,7 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 ## map
 
 - Improve loading speed of the map / use skeleton as it loads slow atm
+- pre load image on hover
 
 ## Improve Styling
 
@@ -12,7 +13,6 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 - fix for mobile - iphone se not looking great.
 - apply default colours consistently.
   -Consistent colors, search with % for white gray black neutral etc and replace
-- Use sass, see articles on why better than tailwind / other approach basically, use to demonstrate that can use sass/styled components and other forms of css
 - dark and light mode
 - improve css of map?
 
