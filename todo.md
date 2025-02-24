@@ -2,6 +2,10 @@
 
 Redux - do this tutorial using sandbox to make sure understand it well. Tutorial [here](https://daveceddia.com/redux-tutorial/)
 
+## map
+
+- Improve loading speed of the map / use skeleton as it loads slow atm
+
 ## Improve Styling
 
 - use just tailwind (change in readme and on portfolio page and cv when done)
