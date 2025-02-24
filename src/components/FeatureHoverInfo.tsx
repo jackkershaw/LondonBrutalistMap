@@ -10,15 +10,15 @@ const HoverInfo: React.FC<HoverInfoProps> = ({
   onMouseLeave,
 }) => (
   <div
-    className="absolute z-10 w-[400px] rounded-lg bg-white p-5 text-2xl text-black shadow-lg shadow-black sm:right-10 sm:top-10"
+    className="absolute z-10 w-[300px] transform rounded-lg bg-white p-4 text-xl text-black"
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
   >
-    <span className="flex items-center">
-      <span className="mr-2">🔍</span>
-      {title}
+    <span className="flex items-center gap-3">
+      <span className="text-2xl">🔍</span>
+      <span className="font-medium tracking-tight">{title}</span>
     </span>
-    <p className="px-8 pt-3 text-sm">Click for more info</p>
+    <p className="text-gray-600 mt-2 pl-9 text-sm">Click for more info</p>
   </div>
 );
 
