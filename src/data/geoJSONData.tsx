@@ -287,8 +287,7 @@ export const FeaturesData: FeaturesData = {
         Title: "National Sports Centre",
         MapURL: "https://maps.app.goo.gl/MT6Y6LY8y325ZxnB6",
         Image: "15",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1964",
         "": "",
       },
@@ -597,8 +596,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Allbrook House and Roehampton Library",
         MapURL: "https://maps.app.goo.gl/yYYZDUfZ5EqoSHbh9",
         Image: "32",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1961",
         "": "",
       },
@@ -1191,8 +1189,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Paddington Fire Station",
         MapURL: "https://maps.app.goo.gl/SgTVaREb68FVRoY46",
         Image: "63",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1970",
         "": "",
       },
@@ -1230,8 +1227,7 @@ export const FeaturesData: FeaturesData = {
         MapURL:
           "https://www.google.com/maps/place/Hayward+Gallery/data=!4m2!3m1!1s0x487604b7e7c78711:0xea81dbe9938ed7b8",
         Image: "65",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1968",
         "": "",
       },
@@ -1286,8 +1282,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Bethnal Green Fire Station",
         MapURL: "https://maps.app.goo.gl/ZKGoPuR1iG8ypCXL7",
         Image: "68",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1967",
         "": "",
       },
@@ -1621,8 +1616,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Alton West Estate",
         MapURL: "https://maps.app.goo.gl/qPEFubWnkGN8cfHy5",
         Image: "86",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1958",
         "": "",
       },
@@ -1698,8 +1692,7 @@ export const FeaturesData: FeaturesData = {
         MapURL:
           "https://www.google.com/maps/place/Thamesmead/data=!4m2!3m1!1s0x47d8af4dd90ae2eb:0x434f8c23f47012a7",
         Image: "90",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1969",
         "": "",
       },
@@ -1717,8 +1710,7 @@ export const FeaturesData: FeaturesData = {
         Title: "Blackwall Tunnel Vents",
         MapURL: "https://maps.app.goo.gl/8DSkCpE4pH77nnKp7",
         Image: "91",
-        Designer:
-          "Greater London Council Department of Architecture and Civic Design",
+        Designer: "GLC Architects Department",
         Completed: "1967",
         "": "",
       },
