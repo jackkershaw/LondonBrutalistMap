@@ -1,7 +1,6 @@
 import VisitedCheckbox from "./visitedCheckbox";
 import UnvisitedCheckbox from "./unvisitedCheckbox";
 import CloseButton from "./closeButton";
-import "./FeatureCard.scss";
 
 interface FeatureCardProps {
   feature: GeoJSON.Feature;
@@ -21,24 +20,24 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="feature-card__container">
+    <div className="relative flex h-[70vh] flex-col items-center justify-center overflow-hidden sm:h-[65vh] sm:rounded-lg">
       <img
         src={`./images/buildings/${feature.properties?.Image}.webp`}
         alt={feature.properties?.Title}
         width={400}
         height={400}
         sizes="100vw"
-        className="feature-card__image"
+        className="h-[45vh] w-full object-cover object-center grayscale filter"
         loading="lazy"
         title={feature.properties?.Title}
       />
 
-      <div className="feature-card__content">
+      <div className="mb-2 w-full px-2 py-4">
         <h2 className="feature-card__title">{feature.properties?.Title}</h2>
         <div className="feature-card__info">
           <span>Designed by:</span> {feature.properties?.Designer}
         </div>
-        <div className="feature-card__info">
+        <div className="mb-4 text-sm">
           <span>Completed in:</span> {feature.properties?.Completed}
         </div>
         <div className="flex justify-between">
@@ -46,7 +45,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             href={feature.properties?.MapURL}
             target="_blank"
             rel="noopener noreferrer"
-            className="feature-card__link py-2 px-4"
+            className="rounded-lg bg-white p-1 px-4 py-3 text-sm font-bold hover:bg-gray-600"
           >
             Get Directions
           </a>
@@ -57,14 +56,14 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="feature-card__link py-2 px-4"
+            className="rounded-lg bg-white p-1 px-4 py-3 text-sm font-bold hover:bg-gray-600"
           >
             More Info
           </a>
         </div>
       </div>
       <div
-        className="feature-card__button top-2 right-2 flex flex-col items-center justify-start space-y-1"
+        className="absolute right-2 top-2 flex h-20 w-20 flex-col items-center justify-start rounded-lg bg-white p-2"
         onClick={onVisitedToggle}
       >
         {isVisited ? <VisitedCheckbox /> : <UnvisitedCheckbox />}
@@ -72,7 +71,10 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       </div>
 
       {onClose && (
-        <div className="feature-card__button top-2 left-2" onClick={onClose}>
+        <div
+          className="absolute left-2 top-2 flex h-20 w-20 flex-col items-center justify-start rounded-lg bg-white p-2"
+          onClick={onClose}
+        >
           <CloseButton />
           <p className="text-center">Back</p>
         </div>
