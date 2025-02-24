@@ -16,7 +16,7 @@ const HoverInfo: React.FC<HoverInfoProps> = ({
   >
     <span className="flex items-center gap-3">
       <span className="text-2xl">🔍</span>
-      <span className="font-medium tracking-tight">{title}</span>
+      <span className="px-4 text-xl font-bold">{title}</span>
     </span>
     <p className="text-gray-600 mt-2 pl-9 text-sm">Click for more info</p>
   </div>
