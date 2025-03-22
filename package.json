@@ -12,7 +12,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "autoprefixer": "^10.4.19",
-    "axios": "^1.7.5",
+    "axios": "^1.8.2",
     "mapbox-gl": "^3.10.0",
     "maplibre-gl": "^4.7.1",
     "netlify-cli": "^18.1.0",
