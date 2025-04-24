@@ -6,6 +6,11 @@ Redux - do this tutorial using sandbox to make sure understand it well. Tutorial
 
 - work from iphone se upwards, use Responsively.
 - Close header on click on mobile.
+- post on reddit etc again when looking good on mobile.
+
+look into using mapbox interactions and potentially move back to mapbox as it loads faster 
+https://www.mapbox.com/blog/simplified-system-for-building-map-interactions
+
 
 ## Buildings page
 
