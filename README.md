@@ -85,7 +85,7 @@ I'd love to see contributions to this project! Please refer to [CONTRIBUTING](/C
 - [Community Maps](https://www.are.na/gemma-copeland/community-maps)
 - [Pinball Map](https://pinballmap.com/)
 
-# How I built this site initially (August 2024)
+# How I built this site
 
 ## Why
 
